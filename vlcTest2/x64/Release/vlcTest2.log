@@ -1,0 +1,21 @@
+﻿生成启动时间为 2018/6/6 11:29:03。
+     1>项目“F:\code\C++\VS\test\vlcTest2\vlcTest2\vlcTest2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IF:\code\C++\VS\test\vlcTest2\include /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\vlcTest2.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt vlcTest2.cpp
+         vlcTest2.cpp
+     1>vlcTest2.cpp(245): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(911) : 参见“_sleep”的声明
+     1>vlcTest2.cpp(252): warning C4244: “参数”: 从“libvlc_time_t”转换到“unsigned long”，可能丢失数据
+     1>vlcTest2.cpp(252): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(911) : 参见“_sleep”的声明
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\code\C++\VS\test\vlcTest2\x64\Release\vlcTest2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:F:\code\C++\VS\test\vlcTest2\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\code\C++\VS\test\vlcTest2\x64\Release\vlcTest2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\code\C++\VS\test\vlcTest2\x64\Release\vlcTest2.lib" /MACHINE:X64 x64\Release\stdafx.obj
+         x64\Release\vlcTest2.obj
+         正在生成代码
+         已完成代码的生成
+         vlcTest2.vcxproj -> F:\code\C++\VS\test\vlcTest2\x64\Release\vlcTest2.exe
+     1>已完成生成项目“F:\code\C++\VS\test\vlcTest2\vlcTest2\vlcTest2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.27
